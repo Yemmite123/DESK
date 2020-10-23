@@ -1,0 +1,621 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+    .navbar {
+   
+        height: 10%;
+    }
+
+    .navbar-nav{
+        width: 100%;
+        background-color: #10152C;
+    }
+    
+    .rounded_v{
+        margin-left: 0%;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        background: url('images/videoplaceholder.png'), #2E3B76;
+        border: 1px solid #2F2F2F;
+        box-sizing: border-box;
+        border-radius: 16px; 
+        margin-top: 360px;
+    }
+    .hero_section{
+        left: 0px;
+        top: 0px;
+        margin-top: -4px;
+        background: #10152C;
+    }
+    .hero_col6 > h1{
+        position: none;
+        width: 100%;
+        top: 0px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 35px;
+        line-height: 140%;
+        /* or 78px */
+        color: #FFFFFF;
+        margin-top: 10%;
+    }
+    #btn_warning{
+    
+        background: #E6AF17;
+        border-radius: 4px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 40px;
+        text-transform: unset;
+        color: #10152C;
+        margin-top: 10%;
+        width: 80%;
+    }
+     /* SECOND SECTION */
+     .hero_section_second{
+        left: 0px;
+        top: 0px;
+        margin-top: -4px;
+        background: #ffffff;
+    }
+    .whythedesk_mag{
+        margin-top: 0%;
+    }
+    .whythedesk_mag > p{
+        width: 100%;
+        left: 61px;
+        top: 1249px;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        margin-bottom: 28%;
+        color: #676A7D;
+    }
+
+    .thedesk{
+        margin-left: 0%;
+        position: relative;
+        width: 100%;
+        /* height: 524px; */
+        top: 73px;
+        background: url('images/the_desk.jpg') center center/cover no-repeat;  
+        border: 1px solid #2F2F2F;
+        box-sizing: border-box;
+        border-radius: 4px;  
+        }
+
+    .thedesk_facility{
+        width: 100%;
+        height: 274px;
+        left: 0px;
+        top: 1410px;
+        margin-top: 60%;
+        margin-left: 0%;
+        margin-right: 0%;
+        
+        background: rgba(12, 17, 36, 0.85);
+        border-bottom: none;
+        /* border-radius: 4px; */
+    }
+    .facility_tit{
+        width: 100%;
+        left: 0px;
+        top: 0px;      
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%; 
+        color: #FFFFFF;
+    }
+
+    .facility_para{
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        margin-top: 20%;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 180%;
+        color: rgba(255, 255, 255, 0.9);
+    }
+    .thedesk_facility1{
+        width: 100%;
+        height: 80px;
+        left: 802px;
+        top: 1410px;
+        margin-top: 6%;
+        margin-left: 0%;
+        margin-right:0%;
+        background: rgba(16, 21, 44, 0.85);
+        border-radius: 4px;
+    }
+
+     /* SECOND SECTION */
+     .hero_section_third{
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        margin-top: 10%;
+        background: #ffffff;
+    }
+
+    .core_values{
+        margin-bottom: 30%;
+        text-align: center;
+    }
+
+    .core_values_h3 {
+        /* Our Offerings & Core Values */
+        /* height: 50px; */
+        /* left: 515px; */
+        top: 100px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 180%;
+        /* identical to box height, or 58px */
+        /* text-align: center; */
+        /* Primary colour */
+        color: #10152C;
+        margin-left: 0%;
+    }
+
+
+    .core_values_p{
+        /* We offer flexible term, full-service workspaces to meet your needs */
+        height: 24px;
+        left: 426px;
+        top: 1867px;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        text-align: center;
+        /* grey */
+        color: #676A7D;
+        margin-left: 0%;
+       
+    }
+
+    .image_position_left{
+        width: 100%;
+        height: 470px;
+        left: 0px;
+        top: 0px;
+        background: url('images/IMG_0010.jpg') center center/cover no-repeat;
+    }
+
+    .image_position_center{
+        width: 100%;
+        height: 470px;
+        left: 0px;
+        top: 0px;
+        background: url('images/Meeting room.jpg') center center/cover no-repeat;
+        margin-left: 0px;
+    }
+
+    #space_sty{
+        margin-top: 12%;
+        width: 100%;
+    }
+
+    #space_sty > h3{
+        left: 0px;    
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        /* Primary colour */
+        color: #10152C;
+    }
+    #space_sty > p{
+        width: 100%;
+        height: 134px;
+        left: 0px;
+        top: 0px;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        /* Primary colour */
+        color: #10152C;
+    }
+
+    .image_position_div_center{
+        margin-left: 0px;
+    }
+
+    .image_position_right{
+        width: 100%;
+        height: 470px;
+        left: 0px;
+        top: 0px;
+        background: url('images/IMG_9938 3.jpg') center center/cover no-repeat;
+        margin-left: 0px;
+        margin-top: 8%;
+    }
+
+    .image_position_div_right{
+        margin-left: 0px;
+    }
+
+    #space_sty{
+        margin-top: 0%;
+        width: 100%;
+    }
+
+    #space_sty > h3{
+        left: 0px;    
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        /* Primary colour */
+        color: #10152C;
+    }
+
+    .our_offerings{
+        margin-top: -60%;
+     }
+ 
+     .our_offerings > h3{
+         /* Our Offerings */
+         width: 100%;
+         height: 18px;
+         left: 0px;
+         top: 0px;
+         font-family: Proxima Nova Bold;
+         font-style: normal;
+         font-size: 20px;
+         line-height: 24px;
+         /* secondary colour */
+         color: #E6AF17;
+         margin-bottom: 5%;
+       }
+
+       .our_offerings > h4{
+        /* Our solutions are designed to meet your needs */
+        width: 100%;
+        height: 77px;
+        left: 0px;
+        top: 0px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 140%;
+        color: #10152C;
+        margin-bottom: 25%;
+    }
+
+    .our_offerings > p{
+        /* The Desk coworking space is created with users’ absolute convenience in mind. Our space was consciously designed and built to constantly inspire problem solvers and give them access to top-notch amenities to ease their process of building sustainable businesses. */
+        width: 100%;
+        height: 238px;
+        left: 0px;
+        top: 0px;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        /* grey */
+        color: #676A7D;
+    }
+
+
+    #row_sty{
+        margin-left: 0%; 
+        margin-right: 0%;
+    }
+
+    #big_circle{
+        height: 955px;
+        background: none;
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+    }
+
+    .card_cont{
+        width: 100%;
+        height: 305px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(213, 213, 213, 0.25);
+        border-radius: 4px;
+        margin-bottom: 15%;
+    }
+
+    .space_top{
+        margin-top: 50%;
+    }
+
+    #pad{
+        padding-left: 0%;  
+    }
+    .access{
+        margin-left: 0%;
+        margin-top: 0%;
+       
+    }
+
+    .access > h4{
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 180%;
+        /* or 36px */
+        /* Primary colour */
+        color: #10152C;
+    }
+    .access > p{
+        width: 100%;
+        height: 100%;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        line-height: 180%;
+        /* or 36px */
+        /* Primary colour */
+        color: #10152C;
+        /* margin-bottom: ; */
+    }
+    
+
+    .hero_section_fit{
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        margin-top: 130%;
+        background: #F9FAFA;
+    }
+
+    .card_sty{
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        
+        background: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .Individual{
+        width: 100%;
+        height: 32px;
+        left: 32px;
+        top: 41px;
+        
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 180%;
+        color: #676A7D;
+    }
+
+    .daily{
+        width: 100%;
+        height: 29px;
+        left: 0px;
+        top: 0px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 180%;
+        color: #10152C;
+    }
+
+    .markout{
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        padding-right: 0px;
+    }
+
+    .popup{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 8px 0px 0px 8px;
+        
+        position: static;
+        width: 100%;
+        height: 48px;
+        left: 8px;
+        top: 0px;
+        
+        /* Base/Gray 02 */
+        background: #373D3F;
+        border-radius: 4px;
+        
+        /* Inside Auto Layout */
+        flex: none;
+        order: 1;
+        align-self: center;
+        flex-grow: 0;
+        margin: 0px 0px;
+    }
+
+    #btn_primary{
+        width: 100%;
+        /* height: 56px; */
+        background: #BEBFC2;
+        border-radius: 4px;  
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        /* white */
+        color: #FFFFFF;
+    }
+
+    .individual_plan > p{
+        left: 0px;
+        top: 0px;
+        
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 180%;
+        color: #10152C;
+    }
+
+    .carousel .carousel-indicators li {
+        width: 10px;
+       height: 10px;
+       border-radius: 100%;
+       margin-top: 7%;
+       margin-bottom: -25%;
+       background-color: #E6AF17;
+     }
+    
+
+     .sub2 > button {
+        background: #E6AF17;
+        margin-top: 0px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        height: 60px;
+        margin-left: 0px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .container_fluid1{
+        height: 100%;
+        left: 0px;
+        top: 5250px;
+        /* Primary colour */
+        background: #10152C;
+    }
+    #btn_space{
+        width: 100%;
+        height: 48px;
+        left: 1253px;
+        top: 44px;
+        background: #E6AF17;
+        border-radius: 4px;
+    }
+
+    #nav_tabs{
+        width: 100%;
+       border: 1px solid #E6AF17;
+       border-radius: 10px;
+       padding: 1%;
+       margin-right: 6%;
+       margin-left: 20px;
+       margin-bottom: 10%;
+
+     }
+
+     #nav_tabs > a{
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 19px;
+        color: #10152C;
+        text-align: center;
+        margin-right: 10%;
+       
+    
+     }
+
+     #nav_tabs > a:hover{
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 16px;
+        color: #E6AF17;
+    
+     }
+     .ind{
+         margin-left: 13%;
+         margin-right: 1%;
+     }
+
+     .border-right {
+        border-right: 0px solid #DBDBDB!important;
+        height: 100%;
+    }
+
+    #map{
+        width: 100%;
+        height: 220px;
+        left: 852px;
+        top: 286px;
+        border-radius: 8px;
+        margin-top: 5%;
+    }
+    .contacts{
+        margin-left: 0%;
+     }
+
+     .conform{
+        margin-right: 0%;
+    }
+
+    #our_address > div > div > h5{
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 2%;
+        /* grey */
+        color: #7d7367;
+    }
+
+    .mailing{
+        margin-top: 2%;
+    }
+
+    #our_address > div > h3{
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 5%;
+        
+        /* grey */
+        color: #676A7D;
+    }
+
+    #our_address > div > p{
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 140%;
+        /* or 28px */
+        
+        /* Primary colour */
+        color: #10152C;
+    }
+
+    #our_address > div > div > p{
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 140%;
+        /* or 28px */
+        
+        /* Primary colour */
+        color: #10152C;
+    }
+
+
+}
+
+
+
