@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import { MDBModal, MDBModalBody } from 'mdbreact';
 import { MDBNavItem } from "mdbreact";
 import { Link } from "react-scroll";
-import { MDBCarousel, toggleBook, toggleMod, toggleCollapse, toggle, MDBCarouselInner, MDBCarouselItem } from 'mdbreact';
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem } from 'mdbreact';
 import { MDBTabPane, MDBTabContent, MDBNav, MDBIcon } from 'mdbreact';
 import { MDBContainer,  MDBModalHeader } from 'mdbreact';
-import Footer from '../components/Footer';
 import Subscribe from '../components/Subscribe';
-import Contact from "../components/Contact";
+
 
 class Home extends Component {
 
