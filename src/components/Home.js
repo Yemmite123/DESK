@@ -56,13 +56,10 @@ class Home extends Component {
             
           </div>
           <div className="col-md-6">
-                <div className="view z-depth-1 rounded_v">
-                  <div className="mask flex-center ">
-                    <span  id="play" className="btn-floating  btn_circle" onClick={this.toggleMod}><i className="fas fa-play"></i></span>
-                  </div>
-                </div>
+                  <div className="embed-responsive embed-responsive-16by9 rounded_v">
 
-
+                     <iframe className="embed-responsive-item" title="the desk" src="https://www.youtube.com/embed/mvDsq-KaukI" allowfullscreen></iframe>
+                  </div>         
           </div>
         </div>
       </div>
@@ -143,7 +140,7 @@ class Home extends Component {
             <div className="image_position_right">
             </div>
             <div id="space_sty" className="image_position_div_right">
-              <h3>classNamerooms and Coliseum</h3>
+              <h3>Training Space, The Coliseum</h3>
               <p>Flexible spaces for trainings and meetings.</p>
             </div>
           </div>
@@ -238,8 +235,8 @@ class Home extends Component {
       <div id="section2" className="container-fluid">
       <h1 className="text-center plan">Our Plans & Pricing</h1>
       <div id="row_sty" className="row">
-      <MDBNav tabs>
-          <MDBNavItem  id="nav_tabs">
+      <MDBNav tabs >
+          <MDBNavItem id="nav_tabs">
             <Link
               link
               to="#"

@@ -50,7 +50,7 @@ class Navbar extends Component {
             </li>
 
             <li className="nav-item">
-              <Link className="nav-link navLink" to="section2">Plan</Link>
+              <Link className="nav-link navLink" to="section2">Plans</Link>
             </li>
             <MDBNavItem>
               <MDBNavLink className="navLink" to="#!">Directory</MDBNavLink>

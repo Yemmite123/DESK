@@ -31,17 +31,17 @@ const footer = () => {
         <div className="text-center text-md-right">
           <ul className="list-unstyled list-inline">
             <li className="list-inline-item">
-              <a href="/#" className="btn-floating btn-sm">
+              <a href="https://www.facebook.com/DeskAtTheBulb" className="btn-floating btn-sm">
                 <i className="fab fa-2x fa-facebook-f"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="/#" className="btn-floating btn-sm">
+              <a href="https://twitter.com/DeskAtTheBulb" className="btn-floating btn-sm">
                 <i className="fab fa-2x fa-twitter"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a href="/#" className="btn-floating btn-sm">
+              <a href="https://www.instagram.com/desk.africa/" className="btn-floating btn-sm">
                <i className="fab fa-2x fa-instagram"></i>
               </a>
             </li>
