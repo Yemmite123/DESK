@@ -13,7 +13,7 @@ const Privacypolicy = () => {
         <div id="toppolicy" class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 className="text-center infrastructure"Infrastructure Acceptable Use Policy</h1>
+                    <h1 className="text-center infrastructure">Infrastructure Acceptable Use Policy</h1>
                 </div>
             </div>
         </div>
