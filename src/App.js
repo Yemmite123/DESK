@@ -6,6 +6,9 @@ import "./respon.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import Privacypolicy from "./components/Privacypolicy";
+import TermsOfUse from "./components/TermsOfUse";
+import SubscribePage from "./components/SubscribePage";
 
 
 class App extends Component {
@@ -48,9 +51,20 @@ class App extends Component {
          <Route path="/Contact">
             <Contact/>
           </Route>
-          {/* <Route path="/#section2">
+          <Route path="/Privacypolicy">
+            <Privacypolicy/> 
+          </Route>
+          <Route path="/TermsOfUse">
+            <TermsOfUse/>
+          </Route>
+
+          <Route path="/SubscribePage">
+            <SubscribePage/>
+          </Route>
+          <Route path="/section1">
             <Home/>
-          </Route> */}
+          </Route>
+          
       </Switch>
       <Footer/>
    </Router>

@@ -614,6 +614,15 @@ and (max-device-width : 480px) {
         color: #10152C;
     }
 
+    .section_plan{
+        height: 1000px;
+        left: 0px;
+        top: 0px;
+        margin-top: 175%;
+        background: #F9FAFA;
+      
+    }
+
 
 }
 
@@ -1246,6 +1255,11 @@ and (max-device-width : 1024px) {
          /* margin-top: -4px; */
          background: #ffffff;
      }
+
+     
+
+    
+
 }
 
 

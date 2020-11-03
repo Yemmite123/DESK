@@ -1,7 +1,9 @@
 import React from 'react'
+
 function Contact() {
     return (
-        <div><br/><br/><br/>
+        <div>
+          <br/><br/><br/>
              <div className="container-fluid ">
       <br/><br/><br/><br/>
       <div id="" className="container-fluid">

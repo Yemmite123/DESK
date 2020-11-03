@@ -378,6 +378,11 @@
         margin-left: 2%; 
         margin-right: 2%;
     }
+
+    #row_sty_plan{
+        margin-left: 0%; 
+        margin-right: 0%;
+    }
     #big_circle{
         height: 955px;
         background: rgba(249, 249, 250, 0.51);
@@ -497,7 +502,7 @@
         font-size: 32px;
         line-height: 180%;
         color: #10152C;  
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     } 
 
     .Individual{
@@ -580,7 +585,7 @@
         color: #10152C;
     }
     #btn_primary{
-        width: 334px;
+        width: 96%;
         /* height: 56px; */
         background: #BEBFC2;
         border-radius: 4px;  
@@ -597,11 +602,6 @@
         background: #E6AF17;
     }
     .card_sty{
-        width: 406px;
-        height: 666px;
-        left: 0px;
-        top: 0px;
-        
         background: #FFFFFF;
         border-radius: 8px;
     }
@@ -650,6 +650,9 @@
                 /* margin-top: -4px; */
                 background: #ffffff;
             }
+            .subscribe{
+                margin-bottom: 10%;
+            }
 
             .subscribe > h3{
                 left: 521px;
@@ -685,6 +688,8 @@
                 box-sizing: border-box;
                 border-radius: 3px;
                 height: 60px;
+                width: 400px;
+                margin-left: -100px;
             }
 
             .sub > input[type=text]:focus {
@@ -735,17 +740,21 @@
                 color: #676A7D;
               }
 
-              .sub2 > button {
+              
+
+            .sub > button{
                 background: #E6AF17;
                  margin-top: 0px;
                 box-sizing: border-box;
                 border-radius: 3px;
                 height: 60px;
-                margin-left: -25px;
+                margin-left: 6px;
                 font-family: Proxima Nova Bold;
                 font-style: normal;
                 font-size: 16px;
                 line-height: 19px;
+                border: none;
+                width: 14%;
             }
 
 
@@ -1018,6 +1027,176 @@
             /* Primary colour */
             color: #10152C;
         }
+
+        .carousel .carousel-control-next-icon {
+            background-image: url(/static/media/arrow_right.8ef6a08c.svg);
+            background-color: #10162b;
+            border-radius: 50%;
+            width: 54px;
+            height: 54px;
+            /* shadow */
+            box-shadow: 0px 0px 24px rgba(196, 195, 195, 0.25);
+        }
+
+        .carousel .carousel-control-prev-icon {
+            background-image: url(/static/media/arrow_left.11911410.svg);
+            background-color: #10162b;
+            border-radius: 50%;
+            width: 54px;
+            height: 54px;
+            /* shadow */
+            box-shadow: 0px 0px 24px rgba(196, 195, 195, 0.25);
+            margin-left: -200px;
+        }
+
+
+        .section_plan{
+            height: 1000px;
+            left: 0px;
+            top: 0px;
+            margin-top: -4px;
+            background: #F9FAFA;
+          
+        }
+
+      .individualPlan{
+        background: #E6AF17;
+        border-radius: 4px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+      }
+
+      #toppolicy{
+        height: 220px;
+        left: 0px;
+        top: 96px;
+        margin-top: 6%;
+        background: #E1E4F4;
+      }
+
+      .infrastructure{
+        left: 289px;
+        top: 185px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 140%;
+        margin-top: 6%;
+        text-align: center;
+        color: #10152C;
+      }
+      .sider_bar_policy{
+        width: 304px;
+        height: 551px;
+        left: 0px;
+        top: 0px;
+        background: #E1E4F4;
+      }
+
+      .nav_policy{
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+        margin-left: 5%;
+        margin-top: 3%;
+      }
+      .nav_policy:hover{
+           color: #000000;
+           font-family: Proxima Nova Bold;
+           font-style: normal;
+           font-size: 20px;
+           line-height: 140%;
+      }
+
+      .intro{
+        margin-left: 10%;
+      }
+
+      .intro > h2{
+        left: 487px;
+        top: 380px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 140%;
+        color: #10152C;
+      }
+
+      .intro > p{
+        left: 487px;
+        top: 439px;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 21px;
+        line-height: 140%;
+        /* or 28px */
+        color: #000000;
+        margin-top: 3%;
+      }
+
+      .intro > h3{
+        left: 476px;
+        top: 854px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 140%;
+        /* or 28px */
+        color: #10152C;
+        margin-top: 5%;
+        
+      }
+
+      .hero_section_policy{
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        margin-top: -4px;
+        background: #ffffff;
+    }
+
+    #topterms{
+        height: 220px;
+        left: 0px;
+        top: 96px;
+        margin-top: 6%;
+        background: #F9E9BE;
+      }
+
+      .sider_bar_policy2{
+        width: 304px;
+        height: 551px;
+        left: 0px;
+        top: 0px;
+        background: #F9E9BE;
+      }
+
+      .msg-alert > p{
+          
+           margin-top: 2%;
+           margin-left: -20%;
+           font-family: Proxima Nova Bold;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 140%;
+      }
+
+      .pri{
+          margin-left: 30%;
+      }
+
+
+      
+      
+
+
+    
 
           
     

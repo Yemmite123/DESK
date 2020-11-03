@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Mailchimp from 'react-mailchimp-form';
 
 const Subscribe = () => {
     return (
@@ -15,21 +16,42 @@ const Subscribe = () => {
       
               <h3 className="pb-2">Subscribe to our newsletter</h3>
               <p className="pt-2 mb-5">Be the first to know about special offers and events happening at The Desk.</p>
+
+              <Mailchimp
+                  action='https://africa.us10.list-manage.com/subscribe/post?u=af6164777f247c51b69625510&amp;id=e072d55bfb'
+                        //Adding multiple fields:
+                    fields={[
+                      {
+                        name: 'EMAIL',
+                        placeholder: 'Your email address',
+                        type: 'email',
+                        required: true,
+                        Tags: 'The Desk',
+                        className: ''
+                      },
+                      // {
+                      //   name: 'FNAME',
+                      //   placeholder: 'name',
+                      //   type: 'text',
+                      //   required: true
+                      // }
+                    ]}
+                    // Change predetermined language
+                    messages = {
+                      {
+                        sending: "Sending...",
+                        success: "Thank you for subscribing!",
+                        error: "An unexpected internal error has occurred.",
+                        empty: "You must write an e-mail.",
+                        duplicate: "Too many subscribe attempts for this email address",
+                        button: "Subscribe"
+                      }
+                    }
+                    // Add a personalized class
+                    className='sub mb-5'
+              />
       
-              <form className="mb-5" action="" method="post" target="_blank">
-                <div className="form-row">
-                  <div className="col-md-4 ml-auto">
-                    <div className="input-group sub">
-                      
-                      <input type="email" name="EMAIL" className="form-control" placeholder="Your email address"/>
-                </div>
-                  </div>
-      
-                  <div className="col-md-2 mr-auto sub2">
-                    <button className="btn">Subscribe</button>
-                  </div>
-                </div>
-              </form>
+            
 
       
             </div>
