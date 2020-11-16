@@ -267,7 +267,7 @@
     }
     /* SECOND SECTION */
     .hero_section_third{
-        height: 900px;
+        height: 1200px;
         left: 0px;
         top: 0px;
         margin-top: -4px;
@@ -838,16 +838,15 @@
         }
 
         .bookInput > input[type=file]{
-            background: #FBF8EF;
+            background: #F1F1F1;
             height: 64px;
             /* secondary colour */
-            border: 1px dashed #E6AF17;
+            border: 1px dashed #F1F1F1;
             box-sizing: border-box;
             border-radius: 4px;
         }
 
         #booKBTN{
-        
             background: #E6AF17;
             border-radius: 4px;
             font-family: Proxima Nova Bold;
@@ -858,6 +857,7 @@
             color: #10152C;
             margin-top: 1%;
             margin-bottom: 5%;
+            
         }
 
         .modal-dialog .modal-content {
@@ -890,12 +890,12 @@
 
         .border-right {
             border-right: 1px solid #DBDBDB!important;
-            height: 635px;
+            height: 100%;
         }
 
         #map{
             width: 554px;
-            height: 220px;
+            height: 320px;
             left: 852px;
             top: 286px;
             border-radius: 8px;
@@ -1178,7 +1178,6 @@
       }
 
       .msg-alert > p{
-          
            margin-top: 2%;
            margin-left: -20%;
            font-family: Proxima Nova Bold;
@@ -1190,6 +1189,53 @@
       .pri{
           margin-left: 30%;
       }
+
+
+      .success-msg {
+        color: #57A773;
+        padding: 10px 15px;
+      }
+      
+      
+      .err-msg {
+        color: #EE6352;
+        padding: 10px 15px;
+      }
+
+      .success-msg > button{
+        background: #E6AF17;
+        border-radius: 4px;
+        font-family: Proxima Nova Bold;
+        font-style: normal;
+        font-size: 17px;
+        line-height: 40px;
+        text-transform: unset;
+        color: #10152C;
+        margin-top: 0%;
+        margin-left:5%;
+        margin-bottom: 0%;
+        padding: 10px;
+        border-width: 2px;
+        border-color:none;
+        border-image: initial;
+    }
+
+    .swal2-styled .swal2-confirm {
+        border: 0;
+        border-radius: .25em;
+        background: initial;
+        background-color: #E6AF17;
+        color: #10152C;
+        font-size: 1.0625em;
+        font-family: Proxima Nova Regular;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* .booKBTN_disable{
+        visibility: hidden;
+    } */
 
 
       

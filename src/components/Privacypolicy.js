@@ -1,12 +1,7 @@
 import React from 'react';
 import { Link } from "react-scroll";
-
-
-
     
-const Privacypolicy = () => {
-
-    
+const Privacypolicy = () => {    
     return (
         <div>
            
@@ -135,8 +130,6 @@ const Privacypolicy = () => {
                <p>     All breaches of information security policies will be investigated. Where investigations reveal misconduct and negligence, disciplinary action may follow in line with The Bulb Africa’s disciplinary procedures.   </p> 
 
                <p style={{'margin-bottom':'15%'}}>    If any client shall deliberately or negligently disregard any of the INFRASTRUCTURE ACCEPTABLE USE POLICY requirements then this may, in the absolute discretion of the Business result in disciplinary action being taken against him/her.  </p> 
-
-
 
              </div>
             </div>

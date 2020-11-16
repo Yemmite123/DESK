@@ -5,6 +5,7 @@
   "homepage": "https://rimoservers.com/",
   "// If You want to install mdbreact from our GitLab repository, please replace '4.27.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
+    "axios": "^0.21.0",
     "emailjs-com": "^2.6.3",
     "mdbreact": "4.27.0",
     "react": "^16.12.0",
@@ -15,7 +16,10 @@
     "react-paystack": "^3.0.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.0",
-    "react-scroll": "^1.8.1"
+    "react-scroll": "^1.8.1",
+    "sweetalert2": "^10.10.1",
+    "sweetalert2-react": "^0.8.3",
+    "sweetalert2-react-content": "^3.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

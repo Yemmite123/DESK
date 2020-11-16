@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Privacypolicy from "./components/Privacypolicy";
 import TermsOfUse from "./components/TermsOfUse";
 import SubscribePage from "./components/SubscribePage";
+import Payment from "./components/Payment";
 
 
 class App extends Component {
@@ -56,6 +57,10 @@ class App extends Component {
           </Route>
           <Route path="/TermsOfUse">
             <TermsOfUse/>
+          </Route> 
+
+          <Route path="/Payment">
+            <Payment/>
           </Route>
 
           <Route path="/SubscribePage">
